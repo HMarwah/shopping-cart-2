@@ -201,6 +201,9 @@ margin: 0px 0px !important;
 .ant-modal-footer{
   display: none;
 }
+.ant-modal{
+  height:800px !important
+}
 
 .anticon.anticon-caret-down{
   background-color: gray;

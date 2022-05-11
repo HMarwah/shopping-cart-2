@@ -41,10 +41,10 @@ return (
                 myCart={props.setCart}
             />
     </Menu>
-    <Modal  title="Available products in Inventory"visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} >
+    <Modal  style={{height:'220px'}}title="Available products in Inventory"visible={isModalVisible} onOk={handleOk} onCancel={handleCancel} >
     {/* <BarChart /> */}
     <Drop />
-    <Button size="big" onClick={handleOk} style={{marginLeft:'380px',width:'100px',backgroundColor:'lightgray'}}>Ok</Button>
+    <Button size="small" className='ant-btn atn-btn-secondary' onClick={handleOk} style={{float:'right',width:'100px',marginTop:'-5px',backgroundColor:'lightgray'}}>Ok</Button>
     </Modal>
     </div>
     </div>
